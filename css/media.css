@@ -1,0 +1,100 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px){
+    .artical_feature {
+        min-height: 122px;
+
+    }
+    .add{
+        margin-top: 26px;
+        min-height: 123px;
+
+    }
+    .sidebar_content {
+        margin-top: 15px;
+        min-height: 160px;
+
+
+    }
+    
+    .artical_listing {
+        min-height: 150px;
+    }
+
+    .padding_right {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .sidebar_feature {
+        min-height: 150px;
+
+    }
+}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) { 
+    .artical_feature {
+        min-height: 122px;
+
+    }
+    .add{
+        margin-top: 26px;
+        min-height: 123px;
+
+    }
+    .sidebar_content {
+        margin-top: 15px;
+        min-height: 160px;
+
+
+    }
+
+    .padding_right {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .sidebar_feature {
+        min-height: 150px;
+
+    }
+
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px){
+    .artical_feature {
+        min-height: 122px;
+
+    }
+    .add{
+        margin-top: 26px;
+        min-height: 123px;
+
+    }
+    .sidebar_content {
+        margin-top: 15px;
+        min-height: 160px;
+
+
+    }
+    
+    .padding_right {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    
+    .sidebar_feature {
+        min-height: 150px;
+
+    }
+}
+
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { ... }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
